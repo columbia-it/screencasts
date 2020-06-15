@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<link rel="stylesheet" type="text/css" href="transcript.css">
+<script type = "text/javascript" src="videocontrols.js"></script>
+
+<title>FILE</title>  
+</head>    
+<body>
+
+<div style="text-align:center"> 
+
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeBig()">Big</button>
+  <br><br>
+  <video id="video1" width="50%" controls preload="metadata">
+    <source src="FILE.mp4" type="video/mp4">
+    <track label="English" kind="captions" srclang="en" src="FILE.vtt" default>
+    Your browser does not support HTML5 video.
+  </video>
+  <br>
+  <button onclick="slowerSpeed()">Slow down</button>
+  <button onclick="normalSpeed()">Speed 1.0</button>
+  <button onclick="fasterSpeed()">Speed up</button>
+  <button onclick="captionsOn()">Captions ON</button>
+  <button onclick="captionsOff()">Captions Off</button>
+</div> 
+
+<script>
+setVideo("video1");
+</script>
+
+
+<h2>Transcript</h2>
+
+<div w3-include-html="FILE-transcript.html"></div>
+<script>includeHTML()</script>
+</body> 
+</html>

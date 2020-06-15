@@ -1,0 +1,18 @@
+Phrase	SoundsLike	DisplayAs	IPA
+rest	rest	REST	
+restful	rest-full	RESTful	
+JSON	jason	JSON	
+A.P.I.	a-pea-aye	API
+A.P.I.-s	a-pea-eyes	APIs	
+JSON-A.P.I.	jason-a-pea-aye	JSONAPI	
+micro-service		microservice
+micro-services		microservices
+H.T.M.L		HTML
+H.T.T.P		HTTP
+cacheable	cash-able	cacheable
+application-slash-JSON		application/json
+application-slash-XML		application/xml
+application-slash-v.n.d.-dot-a.p.i.-plus-json		application/vnd.api+json	
+hyper-media		hypermedia	
+hate-o.a.s.		HATEOAS	
+hat-e-oh-s		HATEOAS

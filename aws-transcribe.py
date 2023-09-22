@@ -96,7 +96,7 @@ class Session:
         transcribe.start_transcription_job(
             TranscriptionJobName=job_name,
             Media={'MediaFileUri': job_uri},
-            MediaFormat='mp4',
+            MediaFormat=s3url[s3url.rfind('.')+1"] -- allow .mp3, .mp4 and so on
             LanguageCode='en-US',
             Settings={
                 'VocabularyName': self.vocab,
